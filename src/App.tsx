@@ -1,8 +1,11 @@
+import Sidebar from "./components/Sidebar";
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello, this is Admin Dashboard V2
-    </h1>
+    <>
+      <h1 className="text-3xl text-orange-500">Hello world!</h1>
+      <Sidebar />
+    </>
   );
 }
 
